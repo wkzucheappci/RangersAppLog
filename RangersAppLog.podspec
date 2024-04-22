@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
     bd.frameworks = 'UIKit','Foundation','Security','AdSupport','CoreTelephony','CoreFoundation','SystemConfiguration','CoreGraphics'
     bd.library = 'z','sqlite3'
     bd.public_header_files = 'RangersAppLog/Classes/Core/*.h'
+    bd.resources        = "PrivacyInfo.xcprivacy"
   end
 
   s.subspec 'Host' do |bd|
